@@ -1,0 +1,80 @@
+body{
+	background: url(../img/load/bg_01.png)no-repeat;
+	background: cover;
+}
+.toptitle{
+	width: 100%;
+	height: 21%;
+	background: url(../img/load/img_01.png)no-repeat;
+	background-size:100% 100%;
+}
+.content{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	    background: url(../img/load/bg_01.png)no-repeat;
+    background-size: 100% 100%;
+}
+.bo{
+	display: inline-block;
+	width: 0.5066rem;
+	height: 0.3066rem;
+	background: url(../img/banner/bo.png)no-repeat;
+	background-size:100% 100% ;
+}
+.radio{
+	 width: 80%;
+    background: rgba(0,0,0,.3);
+    margin: 0.5333rem auto;
+    color: #f4a952;
+    border-radius: 0.4rem;
+    height: 0.7rem;
+    overflow: hidden;
+}
+.radiobax{
+	width: 100%;
+	height: 100%;
+	border-radius: 0.4rem;
+	
+}
+.radio p{
+	    height: 100%;
+    line-height: 0.7rem;
+    margin-left: 0.2rem;
+}
+.button{
+	    display: block;
+    width: 58%;
+    height: 1.3333rem;
+    background: url(../img/invite/img_6.png)no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    text-align: center;
+    line-height: 1.3333rem;
+    font-size: 0.6rem;
+    color: #ce0000;
+}
+/*红包*/
+.redpaket{
+	position: relative;
+	    width: 80%;
+    height: 50%;
+    background: url(../img/load/img_02.png)no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+.advtitle{
+	    text-align: center;
+    color: #fde18f;
+    margin:0.4rem auto;
+}
+.advtitle h1{
+/*	margin-top: 0.4rem;*/
+	margin-bottom:0.4rem ;
+}

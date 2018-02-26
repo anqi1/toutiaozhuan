@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+	<head lang="en">
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Security-Policy" content="script-src 'self'" />
+		<title>我的余额</title>
+		<link rel="stylesheet" href="../css/common/base.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common/dropload.css" />
+		<link rel="stylesheet" href="../css/withdraw.css" />
+
+	</head>
+
+	<body>
+		<!--头部-->
+		<header class="header">
+			<a href="" class="back">
+				<img src="../img/common/icon_back.png">
+			</a>
+			<p>我的余额</p>
+		</header>
+		<div class="content">
+			<div class="top">
+				<div>
+					<div class="fles">
+						<p>我的余额(元)</p>
+						<h3 class="yue">0.00</h3>
+					</div>
+					<div class="fles">
+						<p>累计提现(元)</p>
+						<h3 class="yue tixian" id="tixian">0.00</h3>
+					</div>
+					<a href="#" class="withdraw">提现</a>
+				</div>
+			</div>
+			<div class="detailbox">
+				<p class="emmptyss">提现明细</p>
+
+				<div class="withdrawempty" style="display: none;">
+					<span></span>
+					<p>暂无明细记录</p>
+				</div>
+			</div>
+
+			<div class="detailList">
+				<table cellspacing="0" border="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th>金额</th>
+							<th>时间</th>
+							<th>状态 </th>
+						</tr>
+					</thead>
+					<tbody>
+
+					</tbody>
+
+				</table>
+			</div>
+		</div>
+		<div class="modal" id="modal" style="display: none ;">
+
+		</div>
+		<div class="repact-a" style="display: none ;">
+			无提现金额
+		</div>
+		<script src="../js/common/fixScreen750.js"></script>
+		<script src="../js/common/jquery.min.js"></script>
+		<script src="../js/common/dropload.min.js"></script>
+		<script src="../js/common/tools.js"></script>
+		<script src="../js/withdraw.js"></script>
+	</body>
+
+</html>

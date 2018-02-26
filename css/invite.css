@@ -1,0 +1,99 @@
+body{
+	background: url(../img/common/bg.png)no-repeat;
+	background-size: cover;
+}
+.content .head_pic {
+  padding-top: 0.733rem;
+  margin-bottom: 1.333rem;
+}
+.content .head_pic .pic {
+  display: block;
+  width: 2.2133rem;
+  height: 2.2133rem;
+  border-radius: 50%;
+  background: #C9D2D8;
+  border: 0.133rem solid #FF7B84;
+  margin: 0 auto;
+}
+.content .head_pic .pic img {
+  border-radius: 50%;
+  width: 1.9666rem;
+  height: 1.9666rem;
+}
+.content .head_pic p {
+  color: #fff;
+  font-size: 0.4rem;
+  text-align: center;
+  margin-top: 0.133rem;
+}
+.content .head_pic h3 {
+  color: #fff;
+  font-size: 0.4rem;
+  text-align: center;
+  margin-top: 0.133rem;
+}
+.way a{
+	display: block;
+	width: 80%;
+	height: 1.2rem;
+	background: url(../img/common/button_03.png)no-repeat;
+	background-size:cover ;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 1.2rem;
+	color: #b95700;
+	font-size: 0.4rem;
+}
+.way{
+	width: 100%;
+	margin-top: 2rem;
+}
+.way p{
+	text-align: center;
+	color: #fff;
+	font-size: 0.4rem;
+	margin-bottom: 0.4rem;
+	margin-top: 1.2rem;
+}
+.shuru{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin-top: 1.36rem;
+}
+.shuru div{
+	margin-top: 0.4rem;
+	width: 80%;
+	position: relative;
+}
+.inputs{
+	border: 0.0133rem solid #DCDCDC;
+	height: 1.0666rem;
+	border-radius: 0.6rem;
+	width: 100%;
+	font-size: 0.4rem;
+	padding-left: 0.2666rem;
+}
+.shuru div button{
+	position: absolute;
+	top: 19%;
+	right: -1rem;
+	transform: translateX(-50%);
+	width: 2.2666rem;
+	height: 0.68rem;
+	line-height: 0.68rem;
+	text-align: center;
+	color: #fff;
+	background: #FA5A58;
+	border: 0;
+	border-radius: 0.4rem;
+	outline: none;
+	cursor: pointer;
+}
+.modalbox{
+	border-radius: 0.1333rem;
+}
+.submit{
+	border-radius: 0.6rem;
+}

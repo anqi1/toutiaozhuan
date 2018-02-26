@@ -1,0 +1,264 @@
+
+body{
+	height: 100%;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+.detailtitle h3{
+	font-size: 0.65rem;
+	text-align: left;
+	/*margin-top:0.2666rem ;*/
+	margin: 0;
+}
+.detailtitle{
+	/*height: 0.6666rem;*/
+	/*margin: 0.2rem;*/
+}
+.detailtime{
+	display: flex;
+	justify-content: space-between;
+	color: #999;
+}
+.content{
+	width: 95%;
+    max-height: 23rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.detailcontent p{
+	font-size: 0.44rem;
+	text-indent: 0.4rem;
+	line-height: 0.8rem;
+	font-weight:400;
+}
+.detailcontent{
+	height: 100%;
+}
+.detailcontent img{
+	display: block;
+	margin: 0.1333rem auto;
+
+}
+.recommedtitle{
+	height: 0.8rem;
+	background: #f4f5f7;
+	line-height: 0.8rem;
+}
+.recommedtitle .reimg{
+	width: 0.48rem;
+	height:0.4rem;
+	display: block;
+	background: url(../img/common/make_03.png)no-repeat;
+	background-size:cover;
+	float: left;
+	margin-top: 0.1866rem;
+	margin-left: 0.4rem;
+	margin-right: 0.1333rem;
+}
+
+.recommand{
+	margin-bottom: 1.6rem;
+	font-size: 0.4rem;
+}
+/*安卓分享*/
+.sharetype ul{
+	display: flex;
+}
+.sharetype ul li{
+	width: 50%;
+	text-align: center;
+}
+.simg{
+	width: 0.6rem;
+	height: 0.6rem;
+	background: url(../img/common/sahre_01.png)no-repeat;
+	background-size:cover ;
+	margin: 0.1333rem auto;
+}
+.simg_02{
+	background: url(../img/common/sahre_02.png)no-repeat;
+	background-size:cover ;
+}
+/*广告图片*/
+.banner{
+	width: 100%;
+}
+.bimg{
+	width: 100%;
+}
+.bimg img{
+	width: 100%;
+	height: 1.5rem;
+}
+.btitle ul{
+	    border-bottom: 0.01rem solid #dcdcdc;
+}
+.btitle li{
+	    border: 0.0133rem solid #DCDCDC;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 0.1rem 0;
+    width: 98%;
+    padding-left: 0.2rem;
+}
+.btitle li a{
+	color: #333;
+	    font-size: 0.4rem;
+    height: 100%;
+}
+.btitle li span{
+	display: block;
+    width: 0.1333rem;
+    height: 0.1333rem;
+    background: #999;
+    float: left;
+    margin-top: 0.1733rem;
+    margin-right: 0.1333rem;
+}
+.bannersss{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 1.6rem;
+	background: #fff;
+	z-index: 999;
+}
+.bannersss img{
+	height: 100%;
+	width: 100%;
+}
+/*视频广告*/
+.vbanner{
+	display: flex;
+	padding: 0.1333rem;
+}
+.tui{
+	width: 1.3466rem;
+	height: 1.3466rem;
+	background: url(../img/tui.gif)no-repeat;
+	background-size:cover ;
+	margin-right: 0.1333rem;
+}
+
+.vbn{
+	display: flex;width:75%;
+}
+.gbn{
+	width: 25%;
+}
+.vtitle{
+	width: 80%;
+	font-size: 0.42rem;
+}
+.zhus{
+	width: 80%;
+	height: 0.6933rem;
+	background: url(../img/zhu.png)no-repeat;
+	background-size:100% 100% ;
+}
+.google {
+	position: relative;
+	display: none;
+}
+.google ul{
+	display:flex;
+}
+.google ul li{
+	width: 33.3%;
+	    height: 2rem;
+    text-align: center;
+}
+.adv{
+	position: absolute;
+	bottom: 0;
+	right: 0.1333rem;
+	background: rgba(0,0,0,.5);
+	color: #fff;
+	padding: 0.1rem;
+}
+.vbanner a{
+	color: #333;
+}
+.gong{
+	color: #29A5FF;
+	margin-left: 0.2rem;
+	    font-weight: bold;
+}
+.detail .money span.jing{
+	display: inline-block;
+	width: 0.53rem;
+	height: 0.53rem;
+	background: url("../img/jing.png")no-repeat;
+	background-size:cover ;
+	margin-top: -0.05rem;
+	float: left;
+}
+.vdetailtitle{
+	position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.3);
+    margin: 0;
+    width: 98%;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    color: #fff;
+    padding-left: 0.2rem;
+}
+.vdetailtitle h3{
+	font-size: 0.4rem;
+    text-align: left;
+    margin: 0;
+    font-weight: 300;
+}
+/*点击展开全文*/
+.allwrite{
+	width: 100%;
+	/*border-top: 0.0133rem solid #dcdcdc ;*/
+	/*padding: 0.4rem;*/
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	 
+}
+.linear{
+	width: 100%;
+	height:0.8rem;
+	background: #fff;
+	background:-webkit-gradient(linear, 0 0, 0 bottom, from(rgba(255, 255, 255, 0)), to(#fff));
+    background:-moz-linear-gradient(top, rgba(255, 255, 255, 0), #fff);   
+    background:-o-linear-gradient(top, rgba(255, 255, 255, 0), #fff);
+}
+.allwrite p{
+	text-align: center;
+	background: #fff;
+/*	padding: 0.2rem;*/
+	font-size:0.44rem;
+	color: #29A5FF;
+	height: 1rem;
+	line-height: 1rem;
+	margin: 0;
+}
+.allwrite span.alldown{
+	display: inline-block;
+	width: 0.5333rem;
+	height: 0.5333rem;
+	background: url(../img/point.png)no-repeat;
+	background-size:100% 100% ;
+	margin-bottom: -0.16rem;
+	margin-left: 0.2rem;
+	animation: down 1s linear;
+	-webkit-animation:down 1s infinite;
+}
+@keyframes down{
+	from{margin-bottom:0rem;}
+	to{margin-bottom: -0.16rem;}
+}
+@-webkit-keyframes down{
+	from{margin-bottom:0rem;}
+	to{margin-bottom: -0.16rem;}
+}

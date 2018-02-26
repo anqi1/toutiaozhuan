@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+	<head lang="en">
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Security-Policy" content="script-src 'self'" />
+		<title>收益明细</title>
+		<link rel="stylesheet" href="../css/common/base.css" />
+		<link rel="stylesheet" href="../css/common/dropload.css" />
+		<link rel="stylesheet" href="../css/deal.css" />
+		<style>
+			.sure div.yeshu {
+				border: 0;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header class="header">
+			<a href="" class="back">
+				<img src="../img/common/icon_back.png">
+			</a>
+			<p>收益明细</p>
+		</header>
+		<div class="content">
+			<div class="top">
+
+				<div class="swiper-container">
+					<ul class="swiper-wrapper" style="width:180%">
+						<!--<li class="swiper-slide"><a class="active">全部</a></li>-->
+						<li class="swiper-slide">
+							<a class="active">文章收益</a>
+						</li>
+						<li class="swiper-slide">
+							<a>徒弟收益</a>
+						</li>
+					</ul>
+				</div>
+				<!--   <div class="iconModal"><span class="iconmo"></span></div>-->
+			</div>
+			<div class="rule">
+				<p>收益明细展示近1个月资金交易数据:</p>
+
+			</div>
+			<div class="recommand">
+				<ul id="detail">
+
+					<!--<li data-accountDetailid=${datas[i].accountDetailid}>
+                            <a>
+                                <span class="type">${datas[i].accountTypeName}</span>
+                                <span class="time">${tt}</span>
+                                <div>
+                                    <p class="num">${datas[i].money}<span>元</span>
+                                    </p>
+                                    <p class="state">${state}</p>
+                                </div>
+                            </a>
+                        </li>-->
+				</ul>
+				<!--<div class="sure">
+        	<div class="prev">上一页</div>
+        	<div class="yeshu">页次<span id="diji">0</span>/ <span id="pagetal">0</span></div>
+        	<div class="next">下一页</div>
+        </div>-->
+
+			</div>
+			<div class="emptylist" style="display: none;">
+				<span></span>
+				<p>暂无明细记录</p>
+			</div>
+
+		</div>
+
+		<div class="modellist">
+			<span>交易类型</span>
+			<img src="img/invite_img/del.png" alt="" class="icon" />
+			<ul>
+				<li>
+					<a href="">全部</a>
+				</li>
+				<li>
+					<a href="">任务收益</a>
+				</li>
+				<li>
+					<a href="">收徒奖励</a>
+				</li>
+				<li>
+					<a href="">提现支出</a>
+				</li>
+				<li>
+					<a href="">其他</a>
+				</li>
+			</ul>
+		</div>
+		<div class="repact-a" style="display: none;"></div>
+		<script src="../js/common/fixScreen750.js"></script>
+		<script src="../js/common/swiper-3.4.2.min.js"></script>
+		<script src="../js/common/jquery.min.js"></script>
+		<script src="../js/common/dropload.min.js"></script>
+		<script src="../js/common/tools.js"></script>
+		<script src="../js/deal.js"></script>
+	</body>
+</html>

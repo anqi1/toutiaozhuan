@@ -1,0 +1,253 @@
+
+.detailtitle h3{
+	font-size: 0.65rem;
+	text-align: left;
+/*	margin-top:0.2666rem ;*/
+}
+.detailtitle{
+	/*height: 0.6666rem;*/
+	margin: 0.2rem;
+}
+.detailtime{
+	display: flex;
+	justify-content: space-between;
+	margin: 0.1333rem;
+	/*margin-top: 0.6666rem;*/
+	margin-bottom: 0.2666rem;
+	color: #999;
+}
+.content_detail{
+	width: 95%;
+	max-height: 23rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.detailcontent p{
+	font-size: 18px;
+	text-indent: 0.4rem;
+	line-height: 0.8rem;
+	font-weight:400;
+
+}
+.detailcontent{
+	height: 100%;
+}
+.detailcontent img{
+	display: block;
+	margin: 0.1333rem auto;
+
+}
+.recommedtitle{
+	height: 0.8rem;
+	background: #f4f5f7;
+	line-height: 0.8rem;
+}
+.recommedtitle .reimg{
+	width: 0.48rem;
+	height:0.4rem;
+	display: block;
+	background: url(../img/common/make_03.png)no-repeat;
+	background-size:cover;
+	float: left;
+	margin-top: 0.1866rem;
+	margin-left: 0.4rem;
+	margin-right: 0.1333rem;
+}
+
+.recommand{
+	margin-bottom: 1.6rem;
+	font-size: 0.4rem;
+}
+/*安卓分享*/
+.sharetype ul{
+	display: flex;
+}
+.sharetype ul li{
+	width: 50%;
+	text-align: center;
+}
+.simg{
+	width: 0.6rem;
+	height: 0.6rem;
+	background: url(../img/common/sahre_01.png)no-repeat;
+	background-size:cover ;
+	margin: 0.1333rem auto;
+}
+.simg_02{
+	background: url(../img/common/sahre_02.png)no-repeat;
+	background-size:cover ;
+}
+/*广告图片*/
+.banner{
+	width: 100%;
+}
+.bimg{
+	width: 100%;
+}
+.bimg img{
+	width: 100%;
+	height: 0.8rem;
+}
+.btitle li{
+	border: 0.0133rem solid #999;
+    border-bottom: 0;
+    padding: 0.2666rem;
+    width: 91%;
+    margin: 0 auto;
+}
+.btitle li span{
+	display: block;
+    width: 0.1333rem;
+    height: 0.1333rem;
+    background: #000;
+    float: left;
+    margin-top: 0.1733rem;
+    margin-right: 0.1333rem;
+}
+.bannersss{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 1.6rem;
+	background: #fff;
+	z-index: 999;
+}
+.bannersss img{
+	height: 100%;
+}
+/*视频广告*/
+.vbanner{
+	display: flex;
+	padding: 0.1333rem;
+}
+.tui{
+	width: 1.3466rem;
+	height: 1.3466rem;
+	background: url(../img/tui.gif)no-repeat;
+	background-size:cover ;
+	margin-right: 0.1333rem;
+}
+
+.vbn{
+	display: flex;width:75%;
+}
+.gbn{
+	width: 25%;
+}
+.vtitle{
+	width: 80%;
+}
+.zhus{
+	width: 80%;
+	height: 0.6933rem;
+	background: url(../img/zhu.png)no-repeat;
+	background-size:100% 100% ;
+}
+.google {
+	position: relative;
+}
+.google ul{
+	display:flex;
+}
+.google ul li{
+	width: 33.3%;
+}
+.adv{
+	position: absolute;
+	bottom: 0;
+	right: 0.1333rem;
+	background: rgba(0,0,0,.5);
+	color: #fff;
+	padding: 0.1rem;
+}
+.detailcontent p.sharecontent{
+	font-size: 0.66rem;
+	line-height: 1rem;
+	font-weight: 500;
+}
+.detailcontent div{
+	font-size: 18px;
+	text-indent: 0.4rem;
+	line-height: 0.8rem;
+	font-weight:400;
+}
+/*点击展开全文*/
+.allwrite{
+	width: 100%;
+	/*border-top: 0.0133rem solid #dcdcdc ;*/
+	/*padding: 0.4rem;*/
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	 
+}
+.linear{
+	width: 100%;
+	height:0.8rem;
+	background: #fff;
+	background:-webkit-gradient(linear, 0 0, 0 bottom, from(rgba(255, 255, 255, 0)), to(#fff));
+    background:-moz-linear-gradient(top, rgba(255, 255, 255, 0), #fff);   
+    background:-o-linear-gradient(top, rgba(255, 255, 255, 0), #fff);
+}
+.allwrite p{
+	text-align: center;
+	background: #fff;
+/*	padding: 0.2rem;*/
+	font-size:0.44rem;
+	color: #29A5FF;
+	height: 1rem;
+	line-height: 1rem;
+}
+.allwrite span.alldown{
+	display: inline-block;
+	width: 0.5333rem;
+	height: 0.5333rem;
+	background: url(../img/point.png)no-repeat;
+	background-size:100% 100% ;
+	margin-bottom: -0.16rem;
+	margin-left: 0.2rem;
+	animation: down 1s linear;
+	-webkit-animation:down 1s infinite;
+}
+@-webkit-keyframes down{
+	from{margin-bottom:0rem;}
+	to{margin-bottom: -0.16rem;}
+}
+/*新人指引*/
+.modaltwo{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.modaltwo .boxmodal{
+	width: 100%;
+	height: 89%;
+	background:rgba(0,0,0,.7);
+}
+.modaltwo .boxmodal div{
+	width: 100%;
+	height:5.84rem;
+	background: url(../img/common/live_05.png)no-repeat;
+	background-size:100% 100% ;
+	position: absolute;
+        bottom: 11%;
+}
+.modaltwo .modalopacity{
+	width: 100%;
+	height: 11%;
+	background: url(../img/common/live_02.png)no-repeat;
+	background-size:100% 100% ;
+}
+/*赚钱秘籍*/
+.makemoney{
+	position: absolute;
+    top: 0;
+    right: 1%;
+    font-size: 0.42rem;
+    color: #FA5A58;
+}
+

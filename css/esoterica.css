@@ -1,0 +1,80 @@
+.tableitem ul{
+	display: flex;
+	border-bottom: 0.0133rem solid #dcdcdc;
+}
+.tableitem ul li{
+	width: 50%;
+	text-align: center;
+	height:1.1066rem;
+	line-height: 1.1066rem;
+	border-bottom: 0.0133rem solid transparent;
+	position: relative;
+	font-size: 0.43rem;
+}
+.tableitem ul li span.iconfont{
+	color: #b2b2b2;
+	margin-right: 0.2rem;
+	font-size: 0.44rem;
+}
+.tableitem ul li.active{
+	border-color: #FA5A58;
+	color: #FA5A58;
+}
+.tableitem ul li.active span.iconfont{
+	color: #FA5A58;
+}
+.tableitem ul li.active .dbx{
+	display: block;
+}
+.tableitem ul li .dbx{
+	width: 0.2266rem;
+	height: 0.12rem;
+	background: url(../img/dbx_03.png)no-repeat;
+	background-size:cover ;
+	position: absolute;
+	bottom: -13%;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	display: none;
+}
+.content{
+	margin-top: 0.4rem;
+	padding: 0 0.4rem;
+}
+.content .titles{
+	/*color: #FA5A58;*/
+	font-size: 0.41rem;
+	margin: 0.2rem 0;
+}
+.content .details{
+	font-size: 0.4rem;
+	line-height: 0.8rem;
+	border-bottom: 0.0133rem solid #DCDCDC;
+}
+.table{
+	height: 100%;
+}
+.table h3{
+	color: #FA5A58;
+	margin-top: 0.4rem;
+	    font-size: 0.43rem;;
+}
+.content .details table{
+	width: 100%;
+	border: 0.0133rem solid #FA5A58;
+}
+.content .details table th{
+	background: #FA5A58;
+	color: #fff;
+	font-weight: normal;
+	height: 0.8rem;
+}
+.content .details table tr td{
+	text-align: center;
+	height: 0.8rem;
+}
+.content .details table tr td:nth-child(2){
+	border-left: 0.0133rem solid #FA5A58;
+	border-right: 0.0133rem solid #FA5A58;
+}

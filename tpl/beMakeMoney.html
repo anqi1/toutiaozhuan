@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Security-Policy" content="script-src 'self'" />
+		<title>收徒享赚</title>
+		<link rel="stylesheet" href="../css/common/base.css" />
+		<link rel="stylesheet" href="../css/common/dropload.css" />
+		<link rel="stylesheet" href="../css/iconfont.css" />
+		<link rel="stylesheet" href="../css/beMakeMoney.css" />
+	</head>
+	<body>
+		<!--个人中心头部-->
+		<header class="header">
+	        <a href="" class="back">
+	            <img src="../img/common/icon_back.png">
+	        </a>
+	        <p>收徒享赚</p>
+	    </header>
+	    <!--顶部-->
+	    <div class="maintop">
+	    	<!--头像-->
+	    	<div class="headtop">
+	    		<ul>
+	    			<li>
+	    				<!--<div class="line"></div>-->
+	    				<p><span class="number">1</span>邀请好友</p>
+	    			</li>
+	    			<li>
+	    				<div class="line"></div>
+	    				<p><span class="number">2</span>好友做任务</p>
+	    			</li>
+	    			<li>
+	    				<div class="line"></div>
+	    				<p><span class="number">3</span>我拿奖励</p>
+	    			</li>
+	    		</ul>
+	    	</div>
+	    	<!--余额-->
+	    	<div class="balance">
+	    		<div class="money">
+	    			<h2>0</h2>
+	    		</div>
+	    		<h3>徒弟收益( 元 )</h3>
+	    	</div>
+	    	<div class ="commonincome">
+	    		<ul>
+	    			<li>
+	    				<h4>10%</h4>
+	    				<p>徒弟收益提成</p>
+	    			</li>
+	    			<li>
+	    				<div class="shu"></div>
+	    				<h4>0</h4>
+	    				<p>徒弟人数(人)</p>
+	    			</li>
+	    			
+	    		</ul>
+	    	</div>
+	    </div>
+	    <div class="incomelist">
+	    	 <div class="zhu">
+		    	<div class="zhutitle">
+		    		<p>1.徒弟首次转发获得收益,奖励师傅1元 ;</p>
+		    		<p>2.单个徒弟收益达100元,奖励师傅100元 .</p>
+		    	</div>
+		    </div>
+	    	<div class="income">
+	    		<table border="0">
+	    			<tr>
+	    				<th><img src="../img/common/zou.png" alt="" /></th>
+	    				<th>收徒收益</th>
+	    				<th>我的奖励</th>
+	    			</tr>
+	    			<tr>
+	    				<td>每天收<span class="red">1</span>名徒弟</td>
+	    				<td>30元/天</td>
+	    				<td>6000+元</td>
+	    			</tr>
+	    			<tr>
+	    				<td>每天收<span class="red">5</span>名徒弟</td>
+	    				<td>150元/天</td>
+	    				<td>30000+元</td>
+	    			</tr><tr>
+	    				<td>每天收<span class="red">20</span>名徒弟</td>
+	    				<td>600元/天</td>
+	    				<td>120000+元</td>
+	    			</tr>
+	    		</table>
+	    	</div>
+	    	
+	    </div>
+	   	<div class='teach'>
+	   		<div class="teachtitle">
+	   			<h3>如何邀请徒弟</h3>
+	   		</div>
+	   		<div class="conteach">
+	   			<p>您可以通过面对面收徒和分享收徒两种方式来收徒，分享出去后有用户完成注册，并分享一篇文章阅读后，即成为你的徒弟。你还可以额外获得徒弟收益10%的永久提成；徒弟越多，奖励越多，躺着也能月入过万！</p>
+	   		</div>
+	   		
+	   	</div>
+	    <div class="button">
+	   			<div class="share share_1">
+	   				<h3><span class="shareicon"></span>面对面收徒</h3>
+	   			</div>
+	   			<div class="share share_2">
+	   				<h3><span class="shareicon"></span>分享收徒</h3>
+	   			</div>
+	   		</div>
+	   
+	    
+	    	<!--尾部-->
+		<footer>
+			<ul class="flist">
+				<li>
+					<a href="ownCenter.html">
+						<span class="iconfont icon-youhui"></span>
+						<p>开始赚钱</p>
+					</a>
+				</li>
+				<li>
+					<a href="../index.html" >
+						<span class="iconfont icon-zhuye"></span>
+						<p>个人中心</p>
+					</a>
+				</li>
+				<li class="active">
+					<a href="beMakeMoney.html">
+						<span class="iconfont icon-duoren"></span>
+						<p>收徒享赚</p>
+					</a>
+				</li>
+			</ul>
+		</footer>
+		 <!--个人中心模态框-->
+		<div class="modal" style="display: none;">
+			<div class="modalbox">
+				<div class="coping">
+					<h3>面对面收徒 <span class="cha"></span></h3>
+				</div>
+				<div id="qrcode">
+					
+				</div>
+				<p class="sao">扫一扫，加入头条赚一起赚钱</p>
+			</div>
+		</div>
+		<!--安卓分享-->
+		<!--<div class="sharetype" style="display: none;">
+	    	
+	    </div>-->
+	    <script src="../js/common/fixScreen750.js"></script>
+		<script src="../js/common/jquery.min.js"></script>
+		<script src="../js/common/dropload.min.js"></script>
+		<script src="../js/common/tools.js"></script>
+		<script src="../js/qrcode/social-share.js"></script>
+		<script src="../js/qrcode/qrcode.js"></script>
+		<script src="../js/beMMoney.js"></script>
+	</body>
+</html>

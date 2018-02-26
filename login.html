@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		
+		<link rel="stylesheet" href="css/common/base.css" />
+		<link rel="stylesheet" href="css/login.css" />
+		
+	</head>
+	<body>
+		<!--头部-->
+		<header class="header">
+	        <a href="javascript:history.go(-1)" class="back">
+	            <img src="img/common/icon_back.png">
+	        </a>
+	        <p>登录</p>
+	    </header>
+	
+		<!--内容-->
+		<div class="content">
+			<p class="error"></p>
+			<ul class="commonlist"> 
+				<li>					
+					<input type="text" id="phone" placeholder="请输入手机号码"/>
+				</li>
+				<li>				
+					<input type="text" id="yzm" placeholder="请输入验证码"/>
+					<div id="code">请输入验证码</div>
+				</li>
+			</ul>			
+		</div>
+		<!--按钮登录-->
+		<div class="login">
+			<div class="submit">
+				手机快捷登录
+			</div>
+		</div>
+		<!--微信一键登录-->
+		<div class="weixin">
+			<div class="img"></div>
+			<p>微信一键登录</p>
+		</div>
+		<script src="js/common/fixScreen750.js"></script>
+		<script src="js/common/jquery.min.js"></script>
+		<script src="js/common/tools.js"></script>
+		<script src="js/login.js"></script>
+	</body>
+</html>

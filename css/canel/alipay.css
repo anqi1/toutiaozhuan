@@ -1,0 +1,155 @@
+.image .monayicon span{
+	display: block;
+	width:0.88rem;
+	height: 0.88rem;
+	background: url(../../img/canel/money.png)no-repeat;
+	background-size:cover;
+}
+.image .monayicon p{
+	color: #fff;
+	text-align: center;
+	margin-top:0.2666rem;
+	font-size: 0.44rem;
+}
+.image{
+	display: flex;
+	justify-content: center;
+	height: 2.9333rem;
+	align-items: center;
+	background: #EF5252;
+}
+.zhishi{
+	width: 38%;
+	height: 0.56rem;
+	background: url(../../img/canel/jiantou.png)no-repeat;
+	background-size:cover ;
+	margin: 0 1.2rem;
+	position: relative;
+	margin-top:0.6rem;
+}
+.tmoney{
+	position: absolute;
+	bottom: 100%;
+	left: 0;
+	color: #fff;
+	font-size: 0.4rem;
+}
+.image .monayicon span.monayicon_2{
+	background: url(../../img/canel/weixin.png)no-repeat;
+	background-size:cover;
+}
+.image .monayicon span.monayicon_3{
+	background: url(../../img/canel/alipay_03.png)no-repeat;
+	background-size:cover;
+}
+/*提现金额*/
+.withdraw>ul>li{
+	height: 1.6rem;
+	display: flex;
+	align-items: center;
+	border-bottom: 0.0266rem solid #DCDCDC;
+}
+.withdraw>ul>li>p{
+	text-align: right;
+	padding: 0 0.2333rem;
+	width: 25%;
+	font-size: 0.44rem;
+	
+}
+.withdraw>ul>li input{
+	height: 100%;
+	font-size: 0.4rem;
+}
+.sum {
+	overflow: auto;
+}
+.sum ul{
+	padding:0.2666rem;
+}
+.sum ul li{
+	
+	float: left;
+	width:22%;
+	text-align: center;
+	padding: 0.1rem;
+	margin: 0.1333rem;
+/*	border: 0.0133rem solid #FA5A58;*/
+	border-radius: 0.4rem;
+	position: relative;
+	    margin-bottom: 0.76rem;
+	    background: #ededed;
+}
+.sum ul li .new{
+	    position: absolute;
+    top: 0.5866rem;
+    left: -2%;
+    height: 0.6666rem;
+    width: 100%;
+    padding-top: 0.1733rem;
+    color: #FA5A58;
+}
+.sum ul li.active{
+	background: #FA5A58;
+	color: #fff;
+}
+.sum ul li .new{
+	display: none;
+}
+.sum ul li.first .new{
+	display: block;
+}
+.sum ul li .new span{
+	display: block;
+	width: 0.1733rem;
+	height: 0.0666rem;
+	background: url(../../img/canel/sanjiaoxing.png)no-repeat;
+	background-size:cover ;
+}
+/*.sum ul li .new p{
+	color: #FA5A58;
+    font-size: 0.12rem;
+    position: absolute;
+    top: 0.1333rem;
+    right: -0.2533rem;
+    width: 0.76rem;
+    display: block;
+}*/
+.zhusi{
+
+	background: #f4f5f7;
+	padding: 0.2666rem 0.5333rem;
+	height: 100%;
+}
+.zhusi p{
+	margin-bottom: 0.2666rem;
+	color: #999999;
+	font-size: 0.36rem;
+	
+}
+/*模态框*/
+.modaldiv{
+	position:absolute;
+	bottom: 0;
+	width: 100%;
+}
+.modaldiv p{
+	font-size: 0.44rem;
+	color: #999;
+	text-align: center;
+	    margin: 0 0.48rem;
+}
+.modaldiv a.submits{
+	display: block;
+	width: 50%;
+	background: #fa5a58;
+	margin: 0.84rem auto;
+	color: #fff;
+	text-align: center;
+	height: 1.0666rem;
+	line-height: 1.0666rem;
+	border-radius: 0.1333rem;
+	font-size: 0.4rem;
+}
+.modalbox {
+	height: 5.5066rem;
+}

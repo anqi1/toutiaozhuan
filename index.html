@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="js/common/fixScreen750.js"></script>
+		<meta charset="UTF-8">
+		<meta name="full-screen" content="yes">
+            <!-- QQ强制全屏 -->
+        <meta name="x5-fullscreen" content="true">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+	     <meta content="black" name="apple-mobile-web-app-status-bar-style">
+	     <meta content="telephone=no" name="format-detection">
+		<meta http-equiv="Content-Security-Policy" content="script-src 'self'" />
+		<meta http-equiv="Content-Security-Policy" content="frame-src 'self'" />
+		<title>个人中心</title>
+		<link rel="stylesheet" href="css/common/base.css" />
+		<link rel="stylesheet" href="css/common/dropload.css" />
+		<link rel="stylesheet" href="css/ownCenter.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />
+	</head>
+	<body>
+		<!--个人中心头部-->
+		<header class="header">
+	       
+	        <p>个人中心</p>
+	    </header>
+	    <!--个人中心头部信息资料-->
+	    <div class="maintop">
+	    	<!--头像-->
+	    	<div class="headtop">
+	    		<div class="img">
+	    			<div class="head">
+	    				<img src="img/common/own.png" alt="" />
+	    			</div>
+	    			<p class="name"></p>
+	    		</div>
+	    		<!--<div class="setting">
+	    			<span class="iconfont icon-shezhi1"></span>
+	    		</div>-->
+	    	</div>
+	    	<!--余额-->
+	    	<div class="balance">
+	    		<div class="money">
+	    			<h2>0</h2>
+	    		</div>
+	    		<h3>我的余额 ( 元 )</h3>
+	    	</div>
+	    	<div class ="commonincome">
+	    		<ul>
+	    			<li>
+	    				<h4>0</h4>
+	    				<p>今日收益(元)</p>
+	    			</li>
+	    			<li>
+	    				<div class="shu"></div>
+	    				<h4>0</h4>
+	    				<p>总收益(元)</p>
+	    			</li>
+	    			<li>
+	    				<div class="shu"></div>
+	    				<h4>0</h4>
+	    				<p>徒弟收益(元)</p>
+	    			</li>
+	    		</ul>
+	    	</div>
+	    </div>
+		<!--个人中心列表-->
+		<div class="list">
+			<ul class="commonlist">
+				<li>
+					<a href="/tpl/quiz.html">
+					<div>
+						<p><span class="icon iconseven"></span>百万答题小助手<span class="icon iconeight"></span></p>
+					</div>
+					<div class="left"></div>
+					</a>
+				</li>
+				<li>
+					<a href="/tpl/ownCenter.html">
+					<div>
+						<p><span class="icon iconone"></span>我要赚钱</p>
+					</div>
+					<div class="left"></div>
+					</a>
+				</li>
+				<li id="withdraws">
+					<a href="#">
+					<div class="onebox">
+						<p><span class="icon icontwo"></span>我要提现</p>
+						<div class="oneyuan"></div>
+					</div>
+					<div class="left"></div>
+					</a>
+				</li>
+				<li>
+					<a href="/tpl/deal.html">
+					<div>
+						<p><span class="icon iconthree"></span>收益明细</p>
+					</div>
+					<div class="left"></div>
+					</a>
+				</li>
+				<!--<li id="tasks">
+					<a href="#">
+					<div>
+						<p><span class="icon iconfour"></span>收益排行</p>
+					</div>
+					<div class="left"></div>
+					</a>
+				</li>-->
+				<li>
+					<a href="tpl/help_center.html">
+					<div>
+						<p><span class="icon iconfive"></span>新人学堂</p>
+					</div>
+					<div class="left"></div>
+					</a>
+				</li>
+				<li>
+					<a href="tpl/feedback.html">
+					<div>
+						<p><span class="icon iconsix"></span>联系我们</p>
+					</div>
+					<div class="left"></div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!--尾部-->
+		<footer>
+			<ul class="flist">
+				<li>
+					<a href="tpl/ownCenter.html">
+						<span class="iconfont icon-youhui"></span>
+						<p>开始赚钱</p>
+					</a>
+				</li>
+				<li class="active">
+					<a href="index.html" >
+						<span class="iconfont icon-zhuye"></span>
+						<p>个人中心</p>
+					</a>
+				</li>
+				<li>
+					<a href="tpl/beMakeMoney.html">
+						<span class="iconfont icon-duoren"></span>
+						<p>收徒享赚</p>
+					</a>
+				</li>
+			</ul>
+		</footer>
+		<!--个人中心模态框-->
+		<div class="modal" style="display: none;" id="usermsg">
+			<div class="modalbox">
+				<div class="coping">
+					<h3>个人信息 <span class="cha"></span></h3>
+				</div>
+				<ul class="modalul">
+					<!--<li>
+						<p>昵称 : <span class="">554545545454</span></p>
+					</li>
+					<li>
+						<p>用户ID : <span class="">5154545454</span></p>
+					</li>
+					<li>
+						<p>手机 : <span class="">45254241212</span></p>
+					</li>
+					<li>
+						<p>微信 : <span class="red">未绑定</span></p>
+					</li>
+					<li>
+						<p>师傅 : <span class="">无</span></p>
+					</li>-->
+				</ul>
+			</div>
+		</div>
+		<div class="getred">
+			<a href="tpl/newTalent.html">
+			<img src="img/red.gif" alt="" />
+			</a>
+		</div>
+		<div class="modal" id="red" style="display: none;">
+			<div class="modal2-boxing">
+				<!--<span class="false"></span>-->
+				<div class="ling">
+					<p>您获得一个新人红包，金额随机</p>
+					<h3>恭喜发财，大吉大利</h3>
+					<div class="kai" ></div>
+					<div class="doit" style="display: none;">
+						<p>已存入余额，1元即可提现</p>
+						<a class="doit-button" href="tpl/newTalent.html">做任务赚更多现金</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal" id="reds" style="display: none;">
+			<div class="modal3-boxing">
+				<span class="false"></span>
+				<div class="lings">
+					
+				</div>
+			</div>
+		</div>
+		<div class="modal" id="modal" style="display: none;"></div>
+		<div class="repact-a" style="display: none ;">
+			敬请期待
+		</div>
+		
+		<script src="js/common/jquery.min.js"></script>
+		<script src="js/common/dropload.min.js"></script>
+		<script src="js/common/tools.js"></script>
+		<script src="js/ownCenter.js"></script>
+	</body>
+</html>

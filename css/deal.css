@@ -1,0 +1,263 @@
+.main-top {
+  height: 1.2rem;
+  padding: 0 0.2rem;
+  padding-bottom: 0.22rem;
+  display: flex;
+  align-items: flex-end;
+  color: #fff;
+  background: #FF4D55;
+}
+.main-top a {
+  font-size: 0.4rem;
+  color: #fff;
+}
+.main-top div {
+  font-size: 0.48rem;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+}
+.content {
+  font-size: 0.32rem;
+  position: relative;
+}
+.content .top {
+  margin: 0.2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.content .top .swiper-container {
+  width: 100%;
+  overflow: hidden;
+}
+.content .top ul {
+  display: flex;
+  width: 220%;
+  padding: 0.2rem;
+}
+.content .top .allList {
+  display: block;
+  width: 1.866rem;
+  height: 0.8rem;
+  border-radius: 0.4rem;
+  color: #000;
+  border: 1px solid #DCDCDC;
+  text-align: center;
+  line-height: 0.8rem;
+}
+.content .top li {
+  margin-right: 0.3rem;
+}
+.content .top li a {
+  display: block;
+/*  // width: 2.866rem;*/
+  padding: 0 0.4rem;
+  height: 0.8rem;
+  border-radius: 0.4rem;
+  color: #000;
+  border: 1px solid #DCDCDC;
+  text-align: center;
+  line-height: 0.8rem;
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+  font-size: 0.4rem;
+}
+.content .top .active {
+  color: #FF4D55;
+  border-color: #FF4D55;
+  background: #FEF5F5;
+}
+.content .top .iconModal {
+  background: #fff;
+  width: 15%;
+  text-align: center;
+}
+.content .top .iconModal span {
+/*  font-size: 0.4rem;*/
+  display: block;
+      margin: 0 auto;
+  margin-top: -0.226rem;
+  width: 0.44rem;
+  height: 0.44rem;
+  background: url(../img/common/detail.png)no-repeat;
+  background-size:cover ;
+}
+.content .rule {
+  padding: 0.2rem 0.4rem;
+  background: #FEF5F5 ;
+}
+.content .rule p {
+  color: #666666;
+  font-size: 0.4rem;
+  margin: 0.4rem 0;
+}
+.content .emptylist {
+	position: absolute;
+    top: 315%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    width: 100%;
+    height: 13rem;
+}
+.content .emptylist span {
+  display: block;
+  width: 1.626rem;
+  height: 1.626rem;
+  background: url(../img/common/cry.png) no-repeat;
+  background-size: cover ;
+  margin: 0 auto;
+  position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+.content .emptylist p {
+  margin: 0.4rem 0;
+  color: #000;
+      position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+.detailbox li {
+  border-bottom: 1px solid #dcdcdc;
+  width: 100%;
+  height: 1.8rem;
+}
+.detailbox a {
+  display:inline-block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.detailbox .type{
+  position: absolute;
+  top: 0.4rem;
+  left: 0.5rem;
+  font-size: 0.4rem;
+  color:#000;
+}
+.detailbox .time{
+  position: absolute;
+  top: 1rem;
+  left: 0.5rem;
+  font-size: 0.3rem;
+  color:#999;
+}
+.detailbox a div{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 3rem;
+    height: 100%;
+    text-align: center;
+}
+.detailbox .num{
+  margin-top: 0.4rem;
+  margin-bottom: 0.2rem;
+  font-size: 0.4rem;
+  color:#FF4D55;
+  font-weight: 700;
+}
+.detailbox .num span{
+  font-size: 0.3rem !important;
+}
+.detailbox .state{
+  font-size: 0.3rem;
+  color:#999;
+}
+.detailbox li img{
+  width: 0.3rem;
+  position: absolute;
+  right: 0.3rem;
+  top: 50%;
+  transform:translate(0,-50%);
+  -webkit-transform: translate(0,-50%);
+}
+.modellist{
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4rem;
+  display: none;
+}
+.modellist span{
+  font-size: 0.36rem;
+  color:#000;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+}
+.modellist .icon{
+  width: 0.4rem;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+.modellist ul{
+  width: 100%;
+  margin-top: 1.4rem;
+}
+.modellist ul li{
+  float: left;
+  padding: 0 0.5rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  border:1px solid #FA5A58;
+  font-size: 0.36rem;
+  margin-left: 0.4rem;
+  border-radius: 0.4rem;
+  margin-bottom: 0.2rem;
+  color:#000;
+
+}
+.modellist ul li a{
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  color: #666;
+}
+.checked{
+  color:#FF4D55 !important;
+  border:1px solid #FF4D55 !important;
+  background: #FEF5F5 !important;
+}
+.sure{
+	display: flex;
+	justify-content: center;
+}
+.sure div{
+	width:1.6rem;
+	height: 0.6666rem;
+	border-radius: 0.1333rem;
+	border: 1px solid #FF4D55;
+	margin:0.4rem 0.2rem;
+	line-height: 0.6666rem;
+	text-align: center;
+
+}
+.repact-a{
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	background: #000;
+	color: #fff;
+	padding:0.2rem;
+	font-size: 0.32rem;
+}
+.recommand .details{
+	display: flex;
+	justify-content: space-between;
+}
+.recommand .details h6,p{
+	color: #999;
+	font-size: 0.4rem;
+  font-weight: normal;
+}

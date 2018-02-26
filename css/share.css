@@ -1,0 +1,99 @@
+body{
+	background: #f64232;
+}
+.topmian{
+	width: 100%;
+	height: 4.5866rem;
+	background: url(../img/invite/img_11.png)no-repeat;
+	background-size:100% 100%;
+}
+.content{
+	/*position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;*/
+background: #f64232;
+    min-height: 10.8266rem;
+    
+}
+.chou{
+	width: 100%;
+	height:3.7733rem;
+	background: url(../img/invite/img_12.png)no-repeat;
+	background-size:100% 100% ;
+	position: relative;
+}
+.chou h3{
+	color: #FA5A58;
+	font-size: 0.8rem;
+	position: absolute;
+    top: 10%;
+    text-align: center;
+    width: 100%;
+}
+.bottom{
+	width: 100%;
+	background: url(../img/invite/img_10.png)no-repeat;
+	background-size:100% 100%;
+	position: absolute;
+    height: 53%;
+    top: 52%;
+
+}
+.qrcode{
+	    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    left: 50%;
+    top: 44%;
+	transform: translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	border: 0.12rem solid #F7CE42;
+	border-radius: 0.0666rem;
+}
+.qrcode img{
+	width: 100%;
+	height: 100%;
+}
+.share{
+	    width: 80%;
+    position: absolute;
+    bottom: 4%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    text-align: center;
+}
+.share p{
+	    font-size: 0.4rem;
+	color: #FA5A58;
+}
+.submit{
+	font-weight: bold;
+	border-radius: 0.6666rem;
+}
+.shared h3{
+	    margin-bottom: 0.3rem;
+    color: #FA5A58;
+    font-size: 0.44rem;
+}
+/*安卓分享*/
+.sharetype ul{
+	display: flex;
+}
+.sharetype ul li{
+	width: 50%;
+	text-align: center;
+}
+.simg{
+	width: 0.6rem;
+	height: 0.6rem;
+	background: url(../img/common/sahre_01.png)no-repeat;
+	background-size:cover ;
+	margin: 0.1333rem auto;
+}
+.simg_02{
+	background: url(../img/common/sahre_02.png)no-repeat;
+	background-size:cover ;
+}

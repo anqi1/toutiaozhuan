@@ -1,0 +1,418 @@
+<meta charset="UTF-8">
+/*初始化*/
+/*所有的标签和伪类*/
+*,::before,::after{
+    padding: 0;
+    margin: 0;
+    /*在移动端特殊的设置*/
+    /*清除点击高亮效果*/
+    -webkit-tap-highlight-color: transparent;
+    /*设置盒子的宽度以边框开始计算*/
+    -webkit-box-sizing: border-box;/*要兼容老的移动浏览器*/
+    box-sizing: border-box;
+}
+body{
+    color: #000000;
+    font-family:"Microsoft YaHei","sans-serif";
+    font-size: 0.35rem;
+   	font-weight: 300;
+
+}
+ul,ol{
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+}
+input,textarea{
+    border: none;
+    outline: none;
+    resize: none;
+    /*特殊的属性定义清除浏览器给input自带的样式*/
+    -webkit-appearance: none;/*组件默认的样式为空*/
+}
+/*头部引用*/
+.header{
+    width: 100%;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    position: relative;
+    background-color:#fff;
+    border-bottom: 0.0133rem solid #DCDCDC;
+}
+.header a{
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.header .back{
+    left: 0;
+}
+.header .back img{
+    width: 0.3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.header p{
+    text-align: center;
+    color:#000;
+    font-size: 0.4rem;
+}
+/*个人中心和收徒分成引用*/
+.maintop{
+	width: 100%;
+	height:5.4666rem ;
+	background: url(../img/common/bg_03.png)no-repeat;
+	background-size:cover;
+	color: #fff;
+	padding: 0.2666rem;
+}
+.maintop{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-bottom: 0.2266rem solid #F7F7F7;
+}
+.maintop .money{
+	width: 30%;
+	background: #fff;
+	border-radius: 0.4rem;
+	color: #fa5a58;
+	text-align: center;
+	margin: 0.1333rem auto ;
+}
+.maintop .balance h3{
+	text-align: center;
+	font-weight: normal;
+}
+.commonincome ul{
+	display: flex;
+	justify-content: center;
+}
+.commonincome ul li{
+	width: 33.3%;
+	height: 1.0666rem;
+	text-align: center;
+	position: relative;
+}
+.commonincome ul li p{
+	margin-top: 0.1333rem;
+}
+
+.shu{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	width: 0.0266rem;
+	height:0.84rem;
+	background: #fff;
+}
+/*向右*/
+.left{
+	width: 0.24rem;
+	height: 0.4533rem;
+	background-image:url(../img/common/goodsdetail_goto.png) ;
+	background-repeat:no-repeat ;
+	background-size: cover;
+}
+/*模态框*/
+.modal{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,.7);
+	    z-index: 20;
+}
+.modalbox{
+	width: 80%;
+	height: 6.8933rem;
+	background: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.modalbox .coping{
+	height: 1.0666rem;
+	text-align: center;
+	line-height: 1.0666rem;
+	background: #F7F7F7;
+}
+.modalbox .coping h3{
+	font-size: 0.4rem;
+	font-weight: normal;
+	
+}
+.modalul{
+	padding:0.5333rem 0.76rem;
+
+}
+.modalul li{
+	margin-bottom: 0.4rem;
+	font-size: 0.4rem;
+}
+.cha{
+	display: block;
+	width: 0.32rem;
+	height: 0.32rem;
+	background: url(../img/common/sprite.png)no-repeat -0.6933rem -1.08rem;
+	background-size:2.6666rem;
+	margin-top: 0.3333rem;
+    margin-right: 0.2rem;
+    float: right;
+}
+/*提交按钮*/
+.submit{
+	width: 90%;
+	background: #fa5a58;
+	margin: 0 auto;
+	color: #fff;
+	text-align: center;
+	height: 1.0666rem;
+	line-height: 1.0666rem;
+	border-radius: 0.1333rem;
+	margin-top: 0.3466rem;
+}
+
+/*空白记录*/
+
+/*登录和设置li的样式*/
+.commonlist li{
+	border-bottom: 0.0266rem solid #f4f5f7;
+	height: 1.3333rem;
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.32rem;
+	padding: 0 0.4666rem;
+	align-items: center;
+}
+/*.commonlist li input{
+	font-size: 0.32rem;
+}*/
+/*尾部样式个人中心*/
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #fff;
+}
+.flist{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #333333;
+	
+}
+.flist li{
+	height: 1.4rem;
+	width: 33.3%;
+	text-align: center;
+	border-top:0.0133rem solid #DCDCDC ;
+	padding: 0.1rem;
+}
+.flist li span{
+	color: #CECECE;
+	font-size: 0.6rem;
+}
+.flist li p{
+	color: #333;
+}
+.flist li a{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+.flist li.active a span{
+	color: #FA5A58;
+}
+.flist li.active a p{
+	color: #FA5A58;
+}
+/*红色字体*/
+.red{
+	color: #fa5a58;
+}
+/*推荐列表*/
+.recommand ul{
+	padding: 0;
+}
+.recommand ul li{
+	height: 2.1333rem;
+	padding: 0.2rem;
+	border-bottom: 0.0133rem solid #DCDCDC;
+}
+.recommand ul li a{
+	color: #333;
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	    align-items: center;
+}
+.title h3{
+
+	margin: 0;
+	font-size: 0.44rem;
+
+}
+.title{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+	width: 68%;
+	    margin-right: 0.2rem;
+}
+.detail{
+	display: flex;
+}
+.detail p{
+	font-size: 0.35rem;
+	margin: 0;
+	margin-right: 0.0666rem;
+	color: #cccccc;
+	margin-left: -0.1333rem;
+} 
+.detail p.money{
+	color: #ccc;
+}
+.detail span{
+	display: block;
+	width: 0.3666rem;
+	height: 0.2866rem;
+	background: url(../img/common/browse.png)no-repeat;
+	background-size:cover ;
+	float: left;
+	margin:0 0.0666rem ;
+	margin-top: 0.0666rem;
+	
+}
+.detail .money span{
+	background: url(../img/common/money.png)no-repeat;
+	background-size:cover ;
+}
+.titleimg{
+	width: 30%;
+	height: 100%;
+	position: relative;
+}
+.titleimg img{
+	width:100%;
+	height:100%;
+}
+.replay{
+	display: block;
+	width: 2.1333rem;
+	height: 2.1333rem;
+	background: url(../img/common/re_03.png)no-repeat;
+	background-size:cover ;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+.titleimg .replay{
+	width:0.6666rem;
+	height:0.6666rem;
+}
+.video{
+	position: relative;
+	height: 5.3333rem;
+}
+/*敬请期待*/
+.repact-a{
+	position: absolute;
+	left: 50%;
+	bottom: 10%;
+	transform: translateX(-50%);
+	background: #000;
+	color: #fff;
+	padding:0.2rem;
+}
+/*分享*/
+.sharetype{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 1.6rem;
+	background: #fff;
+}
+/*提现模态框*/
+/*模态框*/
+.shuru{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin-top: 1.36rem;
+}
+.shuru div{
+	margin-top: 0.4rem;
+	width: 80%;
+	position: relative;
+}
+.inputs{
+	border: 0.0133rem solid #DCDCDC;
+	height: 1.0666rem;
+	border-radius: 0.6rem;
+	width: 100%;
+	font-size: 0.4rem;
+	padding-left: 0.2666rem;
+}
+.shuru div button{
+	position: absolute;
+	top: 19%;
+	right: -1rem;
+	transform: translateX(-50%);
+	width: 2.2666rem;
+	height: 0.68rem;
+	line-height: 0.68rem;
+	text-align: center;
+	color: #fff;
+	background: #FA5A58;
+	border: 0;
+	border-radius: 0.4rem;
+	outline: none;
+	cursor: pointer;
+	    font-size: 0.2666rem;
+}
+#modal .modalbox{
+	border-radius: 0.1333rem;
+}
+#modal .submit{
+	border-radius: 0.6rem;
+}
+.recommedtitle{
+	height: 0.8rem;
+	background: #f4f5f7;
+	line-height: 0.8rem;
+}
+.recommedtitle .reimg{
+	width: 0.48rem;
+	height:0.4rem;
+	display: block;
+	background: url(../img/common/make_03.png)no-repeat;
+	background-size:cover;
+	float: left;
+	margin-top: 0.1866rem;
+	margin-left: 0.4rem;
+	margin-right: 0.1333rem;
+}
+
+.recommand{
+	margin-bottom: 1.6rem;
+	font-size: 0.4rem;
+}

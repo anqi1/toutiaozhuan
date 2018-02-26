@@ -1,0 +1,213 @@
+.head{
+	width: 1.1333rem;
+	height: 1.1333rem;
+	margin-right: 0.2666rem;
+	background: #fff;
+	border-radius: 50%;
+}
+.head img{
+	width: 100%;
+	height: 100%;
+	border-radius:50% ;
+}
+.img{
+	display: flex;
+	align-items: center;
+}
+.headtop{
+	display: flex;
+	justify-content: space-between;
+}
+.setting .iconfont{
+	font-size: 0.8rem;
+}
+/*list*/
+.list .commonlist li a{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	
+}
+.list .commonlist li a p{
+	font-size: 0.44rem;
+	color: #333;
+}
+.list .commonlist li{
+	border-bottom: 0.08rem solid #F7F7F7;
+}
+.list .commonlist li div span{
+	float: left;
+	margin-right:0.2rem ;
+}
+.icon{
+	display: block;
+	width: 0.5333rem;
+	height: 0.5333rem;
+	background: url(../img/common/img_1.png)no-repeat;
+	background-size: cover;
+}
+.icontwo{
+	background: url(../img/common/img_2.png)no-repeat;
+	background-size: cover;
+}
+.iconthree{
+	background: url(../img/common/img_3.png)no-repeat;
+	background-size: cover;
+}
+.iconfour{
+	background: url(../img/common/img_4.png)no-repeat;
+	background-size: cover;
+}
+.iconfive{
+	background: url(../img/common/img_5.png)no-repeat;
+	background-size: cover;
+}
+.iconsix{
+	background: url(../img/common/img_6.png)no-repeat;
+	background-size: cover;
+}
+.iconseven{
+	background: url(../img/common/img_8.png)no-repeat;
+	background-size: cover;
+}
+.iconeight{
+	
+	background: url(../img/common/img_9.png)no-repeat;
+	background-size: cover;
+}
+.list .commonlist li div span.iconeight{
+	width: 0.4933rem;
+    height: 0.56rem;
+	float: right;
+	margin-left: 0.2rem;
+}
+/*footer*/
+.list{
+	margin-bottom:4rem;
+}
+.getred{
+	    width: 1.3333rem;
+    height: 1.7333rem;
+    background: #fff;
+    position: fixed;
+    bottom: 9%;
+    right: 3%;
+}
+.getred img{
+	width: 100%;
+	height: 100%;
+}
+.modal2-boxing{
+	width: 80%;
+	height: 12rem;
+	background: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	
+	background: url(../img/invite/img_13.png)no-repeat;
+	background-size:100% 100%;
+}
+.modal3-boxing{
+	width: 80%;
+	height: 10rem;
+	background: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	
+	background: url(../img/bg_red.png)no-repeat;
+	background-size:100% 100%;
+}
+.ling{
+	width: 100%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    text-align: center;
+}
+.ling p{
+	font-size: 0.5rem;
+	color: #fff;
+}
+.ling h3{
+	font-size:0.6rem ;
+	color: #fff100;
+	margin: 0.5333rem 0;
+}
+.ling .kai{
+	    width: 2rem;
+    height: 2.04rem;
+	background: url(../img/invite/img_15.png)no-repeat;
+	background-size:cover ;
+	    margin: auto;
+}
+.false{
+	display: block;
+    width: 0.5866rem;
+    height: 0.5333rem;
+    background: url(../img/cha.png)no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -11%;
+    right: 0;
+}
+.doit p{
+	font-size: 0.4rem;
+}
+.doit a.doit-button{
+	    display: block;
+    width: 70%;
+    height: 1rem;
+    background: url(../img/invite/img_5.png)no-repeat;
+    background-size: cover;
+    margin: 0.2133rem auto;
+        color: #ed3d28;
+    line-height: 1rem;
+    font-size: 0.4666rem;
+    font-weight: 500;
+}
+.lings{
+	    width: 60%;
+    height: 1.1066rem;
+    position: absolute;
+    top: 89%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    background:url(../img/ling.png)no-repeat ;
+    background-size:100% 100% ;
+}
+/*旋转*/
+.kai.active{
+	-webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-animation: anim .6s infinite alternate;
+        -ms-animation: anim .6s infinite alternate;
+            animation: anim .6s infinite alternate;
+}
+@-webkit-keyframes anim {
+    from { -webkit-transform: rotateY(180deg); }
+    to { -webkit-transform: rotateY(360deg); }
+}
+/*一元可以提现*/
+.oneyuan{
+	    width: 1.9733rem;
+    height: 0.4rem;
+    background: url(../img/oneyuan.gif)no-repeat;
+    background-size: 100% 100%;
+    margin-top: 0.08rem;
+}
+.onebox{
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+}

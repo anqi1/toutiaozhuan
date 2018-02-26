@@ -1,0 +1,121 @@
+.main-top {
+  height: 1.2rem;
+  padding: 0 0.2rem;
+  padding-bottom: 0.22rem;
+  display: flex;
+  align-items: flex-end;
+  color: #333333;
+  border-bottom: 1px solid #DCDCDC;
+}
+.main-top a {
+  font-size: 0.5rem;
+  color: #333333;
+}
+.main-top div {
+  font-size: 0.48rem;
+  color: #333333;
+  text-align: center;
+  width: 100%;
+}
+.hot {
+  font-size: 0.32rem;
+  background: #eee;
+}
+.hot h3 {
+  font-size: 0.4rem;
+  color: #FF4D55;
+  padding: 0.4rem;
+  background: #fff;
+  font-weight: normal;
+}
+.hot ul.question {
+  background: #fff;
+  margin-bottom: 0.2rem;
+}
+.hot ul.question li {
+  border-top: 1px solid #DCDCDC;
+  padding: 0.2rem 0;
+}
+.hot ul.question li a {
+  color: #000;
+}
+.hot ul.question li div.content{
+  
+  height: 100%;
+}
+
+.hot ul.clearfix {
+  border-top: 1px solid #DCDCDC;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 0.2rem;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 0.4rem;
+  padding-top: 0.4rem;
+}
+.hot ul.clearfix li:first-child i.iconfont {
+  background: #0EB1A2;
+}
+.hot ul.clearfix li:last-child i.iconfont {
+  background: #FC6F6E;
+}
+.hot ul.clearfix li:nth-child(3) i.iconfont {
+  background: #62D1E2;
+}
+.hot ul.clearfix a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hot ul.clearfix a i.iconfont {
+  color: #ffffff;
+  font-size: 1rem;
+  display: block;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  background: #FF9D3C;
+  line-height: 0.8rem;
+  text-align: center;
+}
+.hot ul.clearfix a span {
+  color: #000;
+  font-size: 0.32rem;
+  margin-top: 0.2rem;
+}
+.question li>p{
+  color:#000;
+  font-size: 0.4rem;
+}
+.content p{
+  color:#333;
+  font-size: 0.4rem !important;
+  background: #DEDEDE;
+  line-height: 0.6666rem;
+  padding: 0 0.4rem;
+}
+.htitles{
+	display: flex;
+	justify-content: space-between;
+}
+.htitles p{
+	font-size: 0.44rem;
+	    width: 90%;
+}
+.shus{
+	  display: block;
+    width: 0.0666rem;
+    height: 0.4rem;
+    background: #FF6B39;
+    margin-left: 0.4266rem;
+    margin-right: 0.2rem;
+    margin-top: 0.0666rem;
+}
+.down{
+	width: 0.5333rem;
+	height: 0.5333rem;
+	background: url(../img/down.png)no-repeat;
+	background-size:cover ;
+	margin-right:0.2rem;
+}

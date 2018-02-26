@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Security-Policy" content="script-src 'self'" />
+		<title>邀请</title>
+		<link rel="stylesheet" href="../css/common/base.css" />
+		
+		<link rel="stylesheet" href="../css/invite.css" />
+		<script src="../js/common/fixScreen750.js"></script>
+	</head>
+	<body>
+		<div class="content">
+			 <div class="head_pic">
+		        <a class="pic"><img src="../" alt=""/></a>
+		        <h3>我是<span>moumoumou</span></h3>
+		        <p>我已经玩了<span class="daily">20</span>天，有趣又可以赚钱！</p>
+		    </div>
+		    <div class="way">
+	            <p>第一步</p>
+	            <a href="">立即注册</a>
+	            <p>第二步</p>
+	            <a href="" id="load">下载APP</a>
+        	</div>
+		</div>
+		<div class="modal" style="display: none;">
+			<div class="modalbox">
+				<span class="cha"> </span>
+				<div class="shuru">
+					<p class="error">温馨提示：账号<span class="red">提现</span>需绑定手机号确认</p>
+					<div>
+						<input type="text" id="phone" class="inputs" placeholder="请输入你的手机"/>
+					</div>
+					<div>
+						<input type="text" id="code" class="inputs" placeholder="请输入验证码"/><button class="yzm" id="yzm">获取验证码 </button>
+					</div>
+					<div class="submit">加入头条赚</div>
+				</div>
+			</div>
+		</div>
+		<script src="../js/common/jquery.min.js"></script>
+		<script src="../js/common/tools.js"></script>
+		<script src="../js/invite.js"></script>
+	</body>
+</html>

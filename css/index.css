@@ -1,0 +1,101 @@
+.bannerlist ul{
+	display: flex;
+}
+.bannerlist ul li{
+	width: 33.3%;
+	padding: 0.46rem 0.6133rem;
+	cursor:pointer;
+}
+.tabItem1{
+	border: 1px solid #DCDCDC;
+	border-radius: 0.6rem;
+	padding: 0.1333rem;
+	text-align: center;
+	color: #333;
+	font-size: 0.44rem;
+	font-weight: 400;
+}
+.active .tabItem1{
+	border: 1px solid #FA5A58;
+	color: #FA5A58;
+	
+}
+.bannerimg{
+	height: 3.8133rem;
+	width: 100%;
+	position: relative;
+}
+.bannerimg img{
+	width: 100%;
+	height: 100%;
+}
+.tabItem2{
+	border-top: 0.16rem solid #EAEAEC;
+}
+.tabItem2 ul{
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 0.0133rem solid #CECECE;
+}
+.tabItem2 ul li{
+	height:1rem;
+	line-height:1rem;
+	font-size: 0.44rem;
+	cursor:pointer;
+}
+.tabItem2 ul li a{
+	color: #333;
+	font-size: 0.2666rem;
+}
+
+.tabItem2 ul li.active{
+	border-bottom: 0.0266rem solid #FA5A58;
+	font-size:0.45rem;
+	color:#FA5A58;
+}
+.banner{
+	margin-bottom: 4rem;
+}
+.detail{
+	justify-content: space-between;
+}
+.modaltwo{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+/*	background:rgba(0,0,0,.7);*/
+/*	background-size:cover ;*/
+}
+.modaltwo .boxmodal{
+	width: 100%;
+	height: 46%;
+	background:rgba(0,0,0,.7);
+}
+.modaltwo .boxmodal div{
+	width: 100%;
+	height:5.84rem;
+	background: url(../img/common/live_01.png)no-repeat;
+	background-size:100% 100% ;
+	position: absolute;
+    top: 6%;
+}
+.modaltwo .modalopacity{
+	width: 100%;
+	height:54%;
+	position: absolute;
+    bottom: 0;
+}
+.modaltwo .modalopacity .showit{
+	width: 100%;
+	height: 86%;
+/*	margin-bottom: 1.4rem;*/
+	border: 0.0666rem solid #e60012;
+	border-radius: 0.0666rem;
+}
+.modaltwo .modalopacity .hideit{
+	width: 100%;
+	height: 1.4rem;
+	background:rgba(0,0,0,.7);
+}

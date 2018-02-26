@@ -1,0 +1,32 @@
+.tmain{
+	text-align: center;
+}
+.tmain h2{
+	color:#f1434c;
+	margin: 0.4rem auto;
+}
+.tmain p{
+	color: #999999;
+}
+.qrcode{
+	width: 80%;
+	margin:0.4rem auto;
+}
+.qrcode img{
+	width: 100%;
+}
+.bottom{
+	margin: 0.5333rem;
+	font-weight: bold;
+}
+.bottom div{
+	margin-left: 0.4rem;
+	
+}
+.bottom div p{
+	line-height: 0.5333rem;
+}
+.submit{
+	background: #09bb07;
+	margin: 0.6666rem auto;
+}

@@ -1,0 +1,102 @@
+body{
+	font-size: 0.44rem;
+}
+.tabs li{
+	width: 50%;
+	background: #fff;
+	height: 1.0133rem;
+	border-right: 0.0133rem solid #dcdcdc;
+	text-align: center;
+	line-height: 1.0133rem;
+	color: #333;
+	border-bottom:0.0133rem solid #DCDCDC;
+}
+.tabs li.active{
+	background: #f1434b;
+	color: #fff;
+}
+.tabs ul{
+	display: flex;
+	justify-content: center;
+}
+/*type*/
+.content {
+  font-size: 0.32rem;
+ /* background: #eee;*/
+}
+.content h3 {
+  font-weight: normal;
+  padding: 0.2rem;
+  background: #f8f8f8;
+  color: #999;
+  font-size:0.44rem;
+}
+.content ul.type {
+  background: #fff;
+  padding: 0.4rem 0.2rem;
+  overflow: hidden;
+}
+.content ul.type li {
+  width: 33.3%;
+  float: left;
+  margin-top: 0.4rem;
+}
+.content ul.type li a {
+  display: block;
+  width: 2.64rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  text-align: center;
+  border: 1px solid #DCDCDC;
+  color: #000;
+  font-size: 0.4rem;
+  border-radius: 0.0666rem;
+}
+.content ul.type .active a {
+  color: #FF4D55;
+  border-color: #FF4D55;
+  background: #FFF8F8;
+}
+.content .advice {
+  background: #fff;
+  margin-top: 0.2rem;
+}
+textarea {
+  width: 100%;
+  border: none;
+  resize: none;
+  font-size: 0.4rem;
+  padding: 0.4rem;
+  outline: none;
+}
+#advice p{
+	text-align: right;
+	padding-right: 0.1333rem;
+	padding-bottom: 0.2666rem;
+}
+.answer{
+	padding: 0.2666rem;
+	border-bottom: 0.0133rem solid #DCDCDC;
+}
+.msg{
+	display: flex;
+	height: 100%;
+	color: #f1434b;
+	font-size: 0.4rem;
+}
+.reply{
+	color: #333;
+}
+.msg p{
+	width: 85%;
+}
+.msg span{
+	margin-right: 0.2666rem;
+}
+.time{
+	text-align: right;
+	color: #cccccc;
+	margin: 0.2666rem 0;
+	font-size: 0.36rem;
+	height: 100%;
+}

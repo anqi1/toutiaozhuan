@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <style>
+            *{
+                margin: 0;
+            }
+            .test{
+                width: 100px;
+                height: 100px;
+                text-align: center;
+                line-height: 100px;
+                background-color: #87CEEB;
+                display: inline-block;
+                vertical-align:top;
+            }
+            canvas{
+                margin-right: 5px;
+            }
+            .down{
+                float: right;
+                 margin: 40px 10px;
+            }
+        </style>
+    </head>
+    <body>
+    [html] view plain copy
+ <section class="share_popup" id="html2canvas">  
+<p>html2canvas 的使用非常简单，简单到只需要传入一个 DOM 元素，然后通过回调拿到 canvas</p>  
+<p><img src="1.jpg"></p>  
+<p>html2canvas 的使用非常简单，简单到只需要传入一个 DOM 元素，然后通过回调拿到 canvas</p>  
+ </section>
+     <script src="js/common/jquery.min.js"></script>
+    <script src="js/common/html2canvas.js"></script>
+<script>
+var str = $('#html2canvas');  
+//console.log(str);  
+html2canvas([str.get(0)], {  
+    onrendered: function (canvas) {  
+        var image = canvas.toDataURL("image/png");  
+        var pHtml = "<img src="+image+" />";  
+        $('#html2canvas').html(pHtml);  
+        
+    }  
+});  
+</script>
+    </body>
+</html>

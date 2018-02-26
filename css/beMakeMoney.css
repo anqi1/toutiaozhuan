@@ -1,0 +1,153 @@
+/*body{
+	padding-bottom: 1.3333rem;
+}*/
+.commonincome ul li{
+	width: 50%;
+}
+.maintop{
+	background: #fa5a58;
+}
+.headtop ul{
+	display: flex;
+	justify-content: center;
+	background: rgba(255,255,255,.3);
+	height: 0.7333rem;
+	border-radius: 0.4rem;
+	width: 90%;
+	margin: 0.1333rem auto;
+	padding: 0.1333rem 0;
+}
+.headtop .number{
+	display: block;
+	width:0.4rem;
+	height: 0.4rem;
+	border: 0.0133rem solid #fff;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 0.32rem;
+	float: left;
+	margin-right: 0.1333rem;
+	margin-top:0.0933rem;
+}
+.line{
+	display: block;
+    width: 0.4rem;
+    height: 0.0133rem;
+    border: 0.0133rem solid #fff;
+    margin: 0 0.1333rem;
+}
+.headtop li{
+	display: flex;
+    align-items: center;
+    font-size: 0.4rem;
+}
+.income{
+	margin: 0.1333rem auto;
+	margin-top: 0.2666rem;
+    width: 92%;
+    height: 3.3066rem;
+}
+.income img{
+	width: 100%;
+}
+.zhu{
+	padding: 0 0.4rem;
+	color: #fa5a58;
+	font-size: 0.36rem;
+    line-height: 0.5733rem;
+    height: 2rem;
+    padding-top: 0.9rem;
+}
+.incomelist{
+	border-bottom: 0.2266rem solid #F7F7F7;
+	padding-bottom: 0.3333rem;
+}
+.teach{
+	    padding: 0 0.4rem 0.4rem 0.4rem;
+	    margin-bottom:4rem;
+}
+.teachtitle{
+	margin: 0.1333rem;
+}
+.conteach{
+	color: #666;
+	line-height: 0.66333rem;
+    font-size: 0.36rem;
+}
+.share{
+	width: 3.7333rem;
+	height: 1.2rem;
+	background: #2fc6b9;
+	border-radius: 0.1333rem;
+	color:#fff;
+	line-height: 1.2rem;
+	text-align: center;
+	    padding: 0 0.4rem;
+}
+.button{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 0.2666rem;
+	    position: fixed;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+}
+.shareicon{
+	display: block;
+	width: 0.6933rem;
+	height: 0.6266rem;
+	background: url(../img/common/money_1.png)no-repeat;
+	background-size:cover;
+    float: left;
+	margin-top:0.3466rem ;
+}
+.share_1{
+	background: #FA5A58;
+}
+.share_1 .shareicon{
+	background: url(../img/common/money_2.png)no-repeat;
+	background-size:cover ;
+}
+#qrcode{
+	margin: 0.4rem auto;
+    width: 3.8533rem;
+  	height: 3.8533rem;
+}
+#qrcode img{
+	width:100%;
+	height:100%;
+}
+.sao{
+	font-size: 0.4rem;
+	text-align: center;
+}
+table{
+	width:100%;
+	text-align: center;
+	border: 0.0133rem solid #FA5A58;
+}
+.income table th{
+	width: 33.3%;
+	height: 0.8533rem;
+}
+.income table th img{
+	width: 50%;
+	height: 100%;
+}
+table td{
+	width: 33.3%;
+	height: 0.8rem;
+}
+.zhu{
+	margin-top: 0.4rem;
+	width: 100%;
+    height: 2.4666rem;
+    background: url(../img/load/img_03.png)no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.zhu .zhutitle{
+	    position: absolute;
+    left: 19%;
+}
